@@ -14,19 +14,19 @@ export default function VendorCard({ vendor }: Props) {
 
       <div className="relative h-56">
 
-        <Image
-  src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
-  alt="venue"
-  fill
-  className="object-cover"
-/>
+              <Image
+                  src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+                  alt="venue"
+                  fill
+                  className="object-cover"
+              />
 
         <button
           className="
           absolute
           top-4
           right-4
-          bg-white
+          inset-0 bg-purple-900/60
           w-12
           h-12
           rounded-full
